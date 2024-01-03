@@ -1,6 +1,7 @@
 {
     "name": "pipedrive/pipedrive",
     "type": "library",
+    "version": "6.3.1-dev",
     "description": "Pipedrive REST client for PHP",
     "keywords": [
         "pipedrive",
@@ -35,6 +36,11 @@
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "6.3.x-dev"
         }
     },
     "scripts": {
